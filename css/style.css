@@ -536,6 +536,7 @@ footer .credit p a:hover {
   color: var(--bg);
   font-size: 1rem;
 }
+
 .close-button i:hover {
   color: red;
 }
@@ -575,6 +576,13 @@ footer .credit p a:hover {
   margin: 1rem 1rem;
   color: #2b2a2a;
   text-decoration: line-through;
+}
+.add-cart-button {
+  background-color: var(--primary);
+  padding: 1.2rem;
+  margin: 1rem 1rem;
+  font-size: 1rem;
+  font-family: var(--primary-font);
 }
 
 
