@@ -57,3 +57,10 @@ closeButton.addEventListener('click', function (e) {
     modalDetail.style.display = 'none';
     e.preventDefault()
 })
+
+
+// GSAP animation
+gsap.from('.container-nav', { duration: 1, ease: "power4.out", y: -500 });
+gsap.from('.heading-hero', { duration: 2.5, ease: "power4.out", x: -500 });
+gsap.from('.text-hero', { duration: 3.5, ease: "power4.out", x: -500 });
+gsap.from('.button', { duration: 4, ease: "power4.out", x: -500 });

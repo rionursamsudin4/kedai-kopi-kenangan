@@ -350,6 +350,11 @@ body {
 }
 
 /* Produk section */
+.products p {
+  margin-bottom: 1rem;
+  font-family: var(--primary-font);
+}
+
 .products .row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
